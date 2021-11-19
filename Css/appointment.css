@@ -1,0 +1,107 @@
+.grid{
+
+
+}
+body{
+    background-color: wheat;
+    background-image: url(img2.jpg);
+    
+}
+
+.box{
+background-color: transparent;
+height: 650px;
+width: auto;
+display: grid;
+
+}
+
+.button{
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    
+}
+.btn{
+    border: 3px solid #ffff00;
+    color:black;
+    text-decoration: none;
+    padding: 20px 3px;
+    transition: 0.5s ease;
+    font-size: 22px;
+    color:black;
+}
+.btn:hover{
+    background-color:yellow;
+    color: black;
+}
+
+.box .menu{
+    background-color: floralwhite;
+    height: 150px;
+    width: 300px;
+    row-gap: 1px;
+    column-gap: 1px;
+
+}
+.box .menu .pop{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 95px;
+    font-size: 25px;
+    border: 3px solid #800080;
+    color:blue;
+    text-decoration: none;
+    padding: 15px 5px;
+    transition: 0.5s ease;
+}
+.box .menu .pop:hover
+{
+    background-color:yellow;
+    color: black; 
+}
+
+.box .menu .pop1{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 55px;
+    font-size: 25px;
+    border: 3px solid #800080;
+    color:blue;
+    text-decoration: none;
+    padding: 15px 5px;
+    transition: 0.5s ease;
+}
+.box .menu .pop1:hover
+{
+    background-color:yellow;
+    color: black; 
+}
+.box .menu .pop2{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 65px;
+    font-size: 25px;
+    border: 3px solid #800080;
+    color:blue;
+    text-decoration: none;
+    padding: 15px 5px;
+    transition: 0.5s ease;
+}
+.box .menu .pop2:hover
+{
+    background-color:yellow;
+    color: black; 
+}
+.box .menu .pop3
+{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 21px;
+    
+    color:blue;
+    text-decoration: none;
+    padding: 15px 5px;
+    transition: 0.5s ease;
+}

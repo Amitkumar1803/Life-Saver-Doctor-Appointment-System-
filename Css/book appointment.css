@@ -1,0 +1,85 @@
+.grid{
+
+}
+body{
+    background-color:transparent;
+    background-image: url(img3.jpg);
+    
+}
+main{
+    width: auto;
+    margin: auto;
+    border: 1px solid transparent;
+    display: grid;
+   
+    grid-template-rows:70px 70px 300px 100px 100px;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:5px;
+}
+.nav{
+    background-color:gainsboro;
+    grid-column: 1/-1;
+}
+.div2{
+    background-color:chartreuse;
+    grid-column: 1/-1;
+}
+.div2 .mm{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.div3{
+    background-color:crimson;
+    grid-row: 3/5;
+}
+.div4{
+    background-color:transparent;
+    grid-row: 3/5;
+    grid-column: 2/5;
+
+}
+
+.div5{
+    background-color:deepskyblue;
+    grid-column: 1/-1;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    overflow: hidden;
+    background:lightslategrey;
+}
+
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 25px 38px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.nav a:hover{
+        color: #000;
+        background: #ddd;
+}
+.nav a.active{
+    background:red;
+}
+
+.div4 .design
+{
+    text-align: left;
+    font-size: 24PX;
+        margin-left: 20px;
+        margin-top: 20px;
+}

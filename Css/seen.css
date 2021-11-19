@@ -1,0 +1,307 @@
+.grid{
+    
+}
+body{
+
+    background-color:whitesmoke;
+    height: 1400px;
+    } 
+main{
+
+    width: auto;
+    margin: auto;
+    display: grid;
+    grid-template-rows:70px 130px 70px 350px 350px 350px 70px;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:20px;
+    
+}
+.grid1
+{
+    background-color:aqua;
+    grid-column:  1/-1;
+}
+
+
+.grid1{
+    overflow: hidden;
+    background:lightslategrey;
+}
+
+.grid1 a{
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 25px 38px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.grid1 a:hover{
+        color: #000;
+        background: #ddd;
+}
+.grid1 a.active{
+    background:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.grid3
+{
+    background-color:cornsilk;
+    grid-column:  1/-1;
+}
+.grid3 .btn{
+    margin-top: 5px;
+    margin-left: 500px;
+    
+}
+
+
+.btn{
+    border: 2px solid orangered;
+    color:black;
+    text-decoration: none;
+    padding:14px;
+    transition: 0.5s ease;
+    font-size: 22px;
+    color:black;
+}
+.btn:hover{
+    background-color:yellow;
+    color: black;
+}
+
+
+
+
+.grid2
+{
+    background-color:whitesmoke;
+    grid-column:  1/-1;
+}
+
+.grid2 .P{
+    font-size: 20px;
+}
+
+
+.grid2 .change-content:after
+{
+            content: '';
+            animation: changetext 4s infinite linear;
+            color:indigo;
+            font-size: 50px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        
+}
+@keyframes changetext {
+    0%{content:"B";}
+    5%{content:"BE";}
+    10%{content:"BES";}
+    15%{content:"BEST";}
+    20%{content:"BEST H";}
+    25%{content:"BEST HO";}
+    30%{content:"BEST HOS";}
+    35%{content:"BEST HOSP";}
+    40%{content:"BEST HOSPI";}
+    45%{content:"BEST HOSPIT";}
+    50%{content:"BEST HOSPITA";}
+    55%{content:"BEST HOSPITAL";}
+    60%{content:"BEST HOSPITALS";}
+
+}
+
+
+
+
+
+.grid4
+{
+    
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.grid4 img{
+    width: 390px;
+    height: 300px;
+}
+.grid4 img:hover{
+        width: 550px;
+        height: 360px;
+}
+ .grid4 h2{
+    color:darkblue;
+
+ }
+.grid5
+{
+    
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.grid5 img{
+    width: 390px;
+    height: 300px;
+}
+.grid5 :hover{
+        width: 550px;
+        height: 360px;
+}
+.grid6
+{
+    
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid6 img{
+    width: 390px;
+    height: 300px;
+}
+.grid6 :hover{
+        width: 550px;
+        height: 360px;
+}
+
+.grid7
+{
+    
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid7 img{
+    width: 390px;
+    height: 300px;
+}
+.grid7 :hover{
+        width: 550px;
+        height: 360px;
+}
+.grid8
+{
+    
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+
+.grid8 img{
+    width: 390px;
+    height: 300px;
+}
+.grid8 :hover{
+    width: 550px;
+    height: 360px;
+}
+.grid9
+{
+    
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid9 img{
+    width: 390px;
+    height: 300px;
+}
+.grid9 :hover{
+    width: 550px;
+    height: 360px;
+}
+.grid10
+{
+
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid10 img{
+    width: 390px;
+    height: 300px;
+}
+.grid10 :hover{
+    width: 550px;
+    height: 360px;
+}
+.grid11
+{
+    
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid11 img{
+    width: 390px;
+    height: 300px;
+}
+.grid11 :hover{
+    width: 550px;
+    height: 360px;
+}
+.grid12
+{
+
+    transition-property: width,height;
+    transition-duration: 1s,1s;
+}
+.grid12 img{
+    width: 390px;
+    height: 300px;
+}
+.grid12 :hover{
+    width: 550px;
+    height: 360px;
+}
+.grid13
+{
+    background-color:cornflowerblue;
+    grid-column: 1/-1;
+}
+    
+
+.grid5 h2{
+    color:darkblue;
+}
+
+.grid6 h2{
+    color:darkblue;
+}
+
+.grid7 h2{
+    color:darkblue;
+}
+
+.grid8 h2{
+    color:darkblue;
+}
+
+.grid9 h2{
+    color:darkblue;
+}
+
+.grid10 h2{
+    color:darkblue;
+}
+
+.grid11 h2{
+    color:darkblue;
+}
+
+.grid12 h2{
+    color:darkblue;
+}
+.grid13 {
+    background-color:lightyellow;
+    grid-column: 1/-1;
+    padding: 5px;
+    font-size: 21px;
+}

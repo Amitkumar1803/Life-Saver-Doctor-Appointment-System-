@@ -1,0 +1,110 @@
+.grid{
+
+}
+
+body{
+
+    background-color:white;
+    height: 1200px;
+ }
+
+main{
+
+    width: auto;
+    margin: auto;
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-rows:70px 500px 500px 500px 60px;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap:1px;
+    
+}
+.grid1
+{
+    background-color:lightslategray;
+    grid-column:  1/-1;
+}
+.grid1 a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 25px 38px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.grid1 a:hover
+{
+        color: #000;
+        background: #ddd;
+}
+.grid1 a.active 
+{
+    background:red;
+}
+
+.grid2
+{
+    background-color:white;
+    grid-column:  1/-1;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.grid3
+{
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.grid3 img
+{
+    margin-left: 10px;
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
+    border: 2px solid mediumblue;
+}
+.grid3 img:hover{
+        width: 620px;
+        height: 495px;
+}
+.grid4
+{
+    background-color:white;
+    font-size: 20px;
+}
+.grid5
+{
+    background-color:white;
+
+    font-size: 20px;
+
+}
+.grid6
+{
+    background-color:white;
+    
+}
+
+.grid6 img{
+    width: 450px;
+    margin-left: 5px;
+    height: 300px;
+    border-radius: 50px;
+    border: 2px solid mediumblue;
+}
+
+.grid6 img:hover{
+    width: 620px;
+    height: 460px;
+}
+
+.grid7
+{
+    background-color:lightsteelblue;
+    grid-column:  1/-1;
+    font-size: 21px;
+    padding: 6px;
+}
